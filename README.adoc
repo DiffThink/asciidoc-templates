@@ -1,0 +1,30 @@
+= README
+
+== asciidoc Templates
+
+=== Why this project
+
+To make it easier to get started creating a project
+
+* README, LICENSE, CONTRIBUTING
+* ISSUE, PULL_REQUEST
+
+Example snippets for visual studio code asciidoctor-vscode project. 
+
+=== Contributing
+
+See link:CONTRIBUTING.adoc[CONTRIBUTING] for additional information.
+
+=== Public domain
+
+This project is in the worldwide link:LICENSE.adoc[Public Domain]. As stated in link:CONTRIBUTING.adoc[CONTRIBUTING]:
+
+[verse, ]
+____
+This project is in the public domain within the United States, and copyright and related rights in the work worldwide are waived through the https://creativecommons.org/publicdomain/zero/1.0/[CC0 1.0 Universal public domain dedication].
+
+All contributions to this project will be released under the CC0 dedication. By submitting a pull request, you are agreeing to comply with this waiver of copyright interest.
+____
+
+==== README Template Inspiration
+https://github.com/18F/open-source-policy/blob/master/README_TEMPLATE.md[18F Open Source Policy README Template]

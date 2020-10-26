@@ -1,0 +1,45 @@
+= README
+
+== Title 
+
+=== Description
+
+This is a paragraph with a *bold* word and an _italicized_ word.
+
+=== Demo
+
+.Image caption
+image::image-file-name.png[I am the image alt text.]
+
+=== Technologies Used
+
+=== Technical
+
+=== Installation
+
+```bash
+    $ git clone https://github.com/<USERNAME>/<PROJECT_TITLE>
+    $ cd PROJECT_TITLE
+    $ yarn install
+```
+
+=== Setup
+
+Open `../a/nice/path/to/a.file` then edit it with your settings. You will need:
+
+- A setting;
+- Another setting;
+- One more setting;
+
+=== Contribute
+
+Pull requests are welcome. For significant changes, please open an issue first to discuss what you would like to change.
+Please make sure to update the tests as appropriate.
+
+=== Acknowledgment
+
+* Author (uid)
+
+=== License
+
+[$3]($3)

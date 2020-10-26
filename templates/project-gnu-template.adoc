@@ -1,0 +1,40 @@
+= FileName
+
+== Title
+
+// badges here
+
+=== Description
+
+=== Requirements
+
+=== Installation
+
+=== Installing
+For the latest stable version:
+
+```node
+npm install -g typescript
+For our nightly builds:
+
+npm install -g typescript@next
+```
+
+=== Getting started
+
+=== Configuration
+
+=== Contributing
+
+=== Testing
+
+Running the Unit Tests
+Make sure you have the necessary dependencies:
+
+`npm install`
+
+Start grunt watch or npm start to auto-build jQuery as you work:
+
+=== Licensing
+
+=== Further Reading

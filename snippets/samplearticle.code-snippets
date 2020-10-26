@@ -1,0 +1,27 @@
+{
+	// Place your asciidoctor-templates workspace snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"scope": "javascript,typescript",
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+
+	"Article Document Example": {
+		"prefix": "asciidoc-article-example",
+		"scope": "asciidoc",
+        "body": [
+            "= AsciiDoc Article Title\nFirstname Lastname <author@asciidoctor.org>\n1.0, July 29, 2014, Asciidoctor 1.5 article template\n:toc:\n:icons: font\n:quick-uri: https://asciidoctor.org/docs/asciidoc-syntax-quick-reference/\n\nContent entered directly below the header but before the first section heading is called the preamble.\n\n== First level heading\n\nThis is a paragraph with a *bold* word and an _italicized_ word.\n\n.Image caption\nimage::image-file-name.png[I am the image alt text.]\n\nThis is another paragraph.footnote:[I am footnote text and will be displayed at the bottom of the article.]\n\n=== Second level heading\n\n.Unordered list title\n* list item 1\n** nested list item\n*** nested nested list item 1\n*** nested nested list item 2\n* list item 2\n\nThis is a paragraph.\n\n.Example block title\n====\nContent in an example block is subject to normal substitutions.\n====\n\n.Sidebar title\n****\nSidebars contain aside text and are subject to normal substitutions.\n****\n\n==== Third level heading\n\n[#id-for-listing-block]\n.Listing block title\n----\nContent in a listing block is subject to verbatim substitutions.\nListing block content is commonly used to preserve code input.\n----\n\n===== Fourth level heading\n\n.Table title\n|===\n|Column heading 1 |Column heading 2\n\n|Column 1, row 1\n|Column 2, row 1\n\n|Column 1, row 2\n|Column 2, row 2\n|===\n\n====== Fifth level heading\n\n[quote, firstname lastname, movie title]\n____\nI am a block quote or a prose excerpt.\nI am subject to normal substitutions.\n____\n\n[verse, firstname lastname, poem title and more]\n____\nI am a verse block.\nIndents and endlines are preserved in verse blocks.\n____\n\n== First level heading\n\nTIP: There are five admonition labels: Tip, Note, Important, Caution and Warning.\n\n// I am a comment and won't be rendered.\n\n. ordered list item\n.. nested ordered list item\n. ordered list item\n\nThe text at the end of this sentence is cross referenced to <<_third_level_heading,the third level heading>>\n\n== First level heading\n\nThis is a link to the https://asciidoctor.org/docs/user-manual/[Asciidoctor User Manual].\nThis is an attribute reference {quick-uri}[which links this text to the Asciidoctor Quick Reference Guide]."
+        ],
+        "description": "AsciiDoc Article Example Document"
+    },
+}

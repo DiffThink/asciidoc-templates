@@ -1,0 +1,40 @@
+= README
+
+==  ${1:name}
+
+$1 is description here.
+
+=== Installation
+
+Use the package manager https://pip.pypa.io/en/stable[pip] to install foobar.
+
+```python 
+
+php3 install $1
+
+```
+
+=== Usage
+
+```python
+import $1
+
+$1.pluralize('word') # returns 'words'
+$1.pluralize('goose') # returns 'geese'
+$1.singularize('phenomena') # returns 'phenomenon'
+```
+
+=== Support
+
+=== Contributing
+
+Pull requests are welcome. For significant changes, please open an issue first to discuss what you would like to change.
+Please make sure to update the tests as appropriate.
+
+=== Authors & Acknowledgment
+
+* Author (uid)
+
+=== License
+
+[$3]($3)

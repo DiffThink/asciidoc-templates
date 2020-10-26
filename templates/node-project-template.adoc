@@ -1,0 +1,92 @@
+= README
+
+== Project Title
+
+An excellent project with a perfect description
+
+---
+
+=== Requirements
+
+You will only need Node.js and a global node package, Yarn, installed in your environment for development.
+
+=== Node.js
+
+* https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions-enterprise-linux-fedora-and-snap-packages[CoreOS, Enterprise Linux, Fedora, and other packages]
+* https://nodejs.org/en/download/package-manager/#macos[macOS]
+- Homebrew
+- MacPorts
+- pkgsrc
+* https://nodejs.org/en/download/package-manager/#nodenv[Nodenv]
+* https://nodejs.org/en/download/package-manager/#nvm[nvm]
+* https://nodejs.org/en/download/package-manager/#windows[Windows]
+- Chocolatey
+- https://github.com/jasongin/nvs[NVS (Node Version Switcher)]
+- Scoop–
+
+You can find more information about installing the official https://nodejs.org/[Node.js website] and the official https://npmjs.org/[NPM website].
+
+If the installation was successful, you should be able to run the following command.
+```
+    $ node --version
+    v8.11.3
+
+    $ npm --version
+    6.1.0
+```
+=== NPM Installation
+If you need to update `npm`, you can make it using `npm`! Cool right? After running the following command, just open again the command line and be happy.
+```
+    $ npm install npm -g
+```
+
+=== Yarn installation
+  After installing node, this project will need yarn too, so just run the following command.
+```
+      $ npm install -g yarn
+```
+
+
+== Install
+
+```bash
+    $ git clone https://github.com/<USERNAME>/<PROJECT_TITLE>
+    $ cd PROJECT_TITLE
+    $ yarn install
+```
+
+=== Configure app
+
+Open `../a/nice/path/to/a.file` then edit it with your settings. You will need:
+
+- A setting;
+- Another setting;
+- One more setting;
+
+=== Running the project
+
+```
+    $ yarn start
+```
+
+=== Simple build for production
+
+```
+    $ yarn build
+```
+=== Contribute
+
+Pull requests are welcome. For significant changes, please open an issue first to discuss what you would like to change.
+Please make sure to update the tests as appropriate.
+
+=== Acknowledgment
+
+* Igor Mandello (https://gist.github.com/Igormandello[@Igormandello])
+
+=== License
+
+[$3]($3)
+
+=== Original Inspiration
+
+https://gist.github.com/Igormandello/57d57ee9a9f32a5414009cbe191db432#file-node-js-project-readme-template[Node Project ReadMe Template] created by  https://gist.github.com/Igormandello[Igor Mandello @Igormandello]
